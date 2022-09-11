@@ -13,7 +13,7 @@ Below is a summary of the election results followed by a visual of results:
 - The breakdown of votes by candidate was as follows: Charles Casper Stockham with 85,213 votes for 23.0% of the total vote, Diana DeGette with 272,892 votes for 73.8% of the total vote, and Raymon Anthony Doanne with 11,606 votes for 3.1% of the total vote.
 - Diana DeGette won the election with 272,892 votes for 73.8% of the total vote. 
 
-![Election Audit Results}(https://github.com/codfjenn/Election_Analysis_/blob/main/Election%20Analysis%20Results.png)
+![Election Audit Results](https://github.com/codfjenn/Election_Analysis_/blob/main/Election%20Analysis%20Results.png)
 
 ## Election Audit Summary
 The script created can be modified to review results of other elections. Below are two examples for how the script could be used for additional analysis. 
