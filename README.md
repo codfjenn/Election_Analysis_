@@ -12,9 +12,11 @@ Below is a summary of the election results followed by a visual of results:
 - Denver County had the highest total votes.
 - The breakdown of votes by candidate was as follows: Charles Casper Stockham with 85,213 votes for 23.0% of the total vote, Diana DeGette with 272,892 votes for 73.8% of the total vote, and Raymon Anthony Doanne with 11,606 votes for 3.1% of the total vote.
 - Diana DeGette won the election with 272,892 votes for 73.8% of the total vote. 
+![Election Audit Results}(https://github.com/codfjenn/Election_Analysis_/blob/main/Election%20Analysis%20Results.png)
 
-Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+## Election Audit Summary
+The script created can be modified to review results of other elections. Below are two examples for how the script could be used for additional analysis. 
+- The script could review other elections with csv data provided in a similar format. The script would need the file_to_Load and the file_to_save updated in order to pull in the new dataset and create a new output. See below snip of the location of these items. 
+![Script to Update}
 
-![Election Audit Results}(
-Script could be review other elections if the format of the csv is similar. The script would need the file_to_Load and the file_to_save updated in order to pull in the new dataset and create a new output. 
-Script could be modified to review election percentages by candidate by county
+- The script could be modified to review election percentages by candidate by county. Additional code would need to be addded to allow us to see which candidate won each county. Currently, the code does not have this data but we could create an additional if statement to total votes if they were cast in a specific county. 
